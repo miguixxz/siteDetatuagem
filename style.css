@@ -1,0 +1,204 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'roboto';
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+:root{
+  --color--header: gray;
+  --color--bo: #633A92;
+}
+
+
+header{
+    background-color: black;
+}
+
+
+.header{
+    background-color: black;
+
+    box-sizing: border-box;
+    box-shadow: 1px 1px 4px;
+    
+
+}
+
+#logo_header{
+
+ width: 100px;
+ border-radius: 100px;
+ margin-top: 15px;
+
+
+
+}
+
+.logo_header{
+    text-align: center;
+}
+
+.btn_header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    align-items: center;
+    transition: .5s;
+    
+
+}
+
+a{
+    
+    text-decoration: none;
+    background-color: #141E25;
+    color:var(--color--bo) ;
+    padding: 10px;
+    margin: 10px 15px 10px 15px;
+    border:solid 2px;
+    border-radius: 10px;
+    width: 110px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   
+    
+}
+
+h2{
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 15px;
+    margin-bottom: 1px;
+    color: purple;
+}
+
+.img_body{
+    width: 245px;
+    height: 225px;
+    border: solid;
+    transition: transform 0.5s ease-in-out;
+    
+
+}
+
+.list_img{
+    padding: 55px;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    object-fit: cover;
+     margin: 15px 120px  45px 50px;
+
+     
+    
+   
+    
+}
+
+
+
+.img_body:hover{
+    transform: scale(1.5);
+}
+
+a:hover{
+    transform: scale(1.2);
+
+}
+
+body{
+    background: linear-gradient(#333333,#ccc)
+}
+
+h3{
+    text-align:left;
+    font-size: 40px;
+    margin-top:  25px;
+    margin-left: 20px;
+    background-image: linear-gradient( purple, #141E25);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+    
+}
+
+
+
+#aquarela{
+    transition: 0.5s;
+}
+
+
+#aquarela:visited{
+    color: #9A2EEB;
+
+}
+
+#Cartoon:visited{
+    color: #9A2EEB;
+}
+
+
+#oldschool:visited{
+    color: #9A2EEB;
+}
+
+#realismo:visited{
+    color: #9A2EEB;
+
+}
+
+#neo:visited{
+    color: #9A2EEB;
+}
+
+figcaption{
+    text-align:left;
+    font-size: 12px;
+}
+
+.fotter{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 70vh 70vh;
+    text-align: center;
+    
+}
+
+footer{
+    background-color: black;
+    max-height: 300px;
+}
+
+
+
+.contact{
+    border: none;
+    background-color: transparent;
+    display: inline;
+   
+}
+
+.h2_footer{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.img_body:hover {
+    color: #633A92;
+  }
